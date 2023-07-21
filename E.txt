@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+
+	cout << fixed << setprecision(9);
+	double input = 0;
+	double pi = 3.141592653;
+
+	cin >> input;
+	double area = pi * input * input;
+	cout << area;
+}

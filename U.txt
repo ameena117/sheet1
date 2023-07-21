@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+#include <cfloat>
+using namespace std;
+
+int main() {
+	float N;
+	cin >> N;
+	if (int(N) == float(N))
+	{
+		cout << "int "<< int(N);
+	}
+	else
+	{
+		cout << "float "<< int(N) << " " << N-int(N);
+	}
+	
+}

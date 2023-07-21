@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	float firstNum, secondNum;
+	cin >> firstNum >> secondNum;
+	/*
+	floor 10 / 3 = 3
+	ceil 10 / 3 = 4
+	round 10 / 3 = 3
+	*/
+	cout << "floor " << firstNum << " / " << secondNum << " = " << floor(firstNum / secondNum) << "\n";
+	cout << "ceil " << firstNum << " / " << secondNum << " = " << ceil(firstNum / secondNum) << "\n";
+	cout << "round " << firstNum << " / " << secondNum << " = " << round(firstNum / secondNum) << "\n";
+}

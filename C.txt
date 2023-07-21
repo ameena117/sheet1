@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	long long int firstNum = 0;
+	long long int secondNum = 0;
+	cin >> firstNum >> secondNum;
+	cout << firstNum << " + " << secondNum << " = " << firstNum + secondNum << "\n";
+	cout << firstNum << " * " << secondNum << " = " << firstNum * secondNum << "\n";
+	cout << firstNum << " - " << secondNum << " = " << firstNum - secondNum << "\n";
+}

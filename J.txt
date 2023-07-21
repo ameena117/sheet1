@@ -1,0 +1,19 @@
+//J
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int A = 0;
+	int B = 0;
+	cin >> A >> B;
+
+	if (!(A % B) || !( B % A ))
+	{
+		cout << "Multiples";
+	}
+	else
+	{
+		cout << "No Multiples";
+	}
+}

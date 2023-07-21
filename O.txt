@@ -1,0 +1,22 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main() {
+    std::string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    for (char c : alphabet) {
+        std::string filename = std::string(1, c) + ".txt";
+        std::ofstream file(filename);
+
+        if (file.is_open()) {
+            file << "This is file " << filename << std::endl;
+            file.close();
+            std::cout << "Created file: " << filename << std::endl;
+        } else {
+            std::cout << "Unable to create file: " << filename << std::endl;
+        }
+    }
+
+    return 0;
+}

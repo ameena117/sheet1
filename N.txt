@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	char ch;
+
+	cin >> ch;
+	//cout << (int)(ch);
+	if ('a' <= ch && ch <= 'z')
+	{
+		cout << char(ch - 32);
+	}
+	else
+	{
+		cout << char(ch + 32);
+	}
+}

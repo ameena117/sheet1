@@ -1,0 +1,14 @@
+
+//K
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int A = 0;
+	int B = 0;
+	int C = 0;
+	cin >> A >> B >> C;
+
+	cout << min(min(min(A, B), min(A, C)), min(B, C)) << " " << max(max(max(A, B), max(A, C)), max(B, C));
+}

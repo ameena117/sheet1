@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+//B
+int main() {
+	int myInt = 0;
+	long long myLong = 0;
+	char myChar = ' ';
+	float myFloat = 0;
+	double myDouble = 0;
+
+	cin >> myInt >> myLong >> myChar >> myFloat >> myDouble;
+	cout << myInt << "\n" << myLong << "\n" << myChar << "\n" << myFloat << "\n" << myDouble;
+}

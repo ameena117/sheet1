@@ -1,0 +1,28 @@
+//M
+#include <iostream>
+using namespace std;
+
+int main() {
+	char ch;
+
+	cin >> ch;
+	//cout << (int)(ch);
+	if ('0' <= ch && ch < 'A')
+	{
+		cout << "IS DIGIT";
+	}
+	else
+	{
+		cout << "ALPHA\n";
+		if ('A' <= ch && ch <= 'Z')
+		{
+			cout << "IS CAPITAL";
+		}
+		else
+		{
+			cout << "IS SMALL";
+		}
+	}
+
+
+}

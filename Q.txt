@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	float X,Y;
+	cin >> X >> Y ;
+	if (X == 0 && Y == 0) {
+		cout << "Origem";
+	}
+	else if (X == 0 & Y != 0) {
+		cout << "Eixo Y";
+	}
+	else if (Y == 0 & X != 0) {
+		cout << "Eixo X";
+	}
+	else if (abs(X) == X & abs(Y) == Y) {
+		cout << "Q1";
+	}
+	else if (abs(X) == X & abs(Y) != Y) {
+		cout << "Q4";
+	}
+	else if (abs(X) != X & abs(Y) == Y) {
+		cout << "Q2";
+	}
+	else if (abs(X) != X & abs(Y) != Y) {
+		cout << "Q3";
+	}
+}

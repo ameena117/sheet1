@@ -1,0 +1,23 @@
+#include <iostream>
+/*#include <cmath>
+using namespace std;
+
+int main() {
+	float N;
+	cin >> N;
+	if (0 <= N && N <= 25) {
+	cout <<  "Interval [0,25]";
+	}
+	if (25 < N && N <= 50) {
+		cout << "Interval (25,50]";
+	}
+	if (50 < N && N <= 75) {
+	cout << "Interval (50,75]";
+	}
+	if (75 < N && N <= 100) {
+	cout <<  "Interval (75,100]";
+	}
+	if(N < 0 || N > 100) {
+		cout << "Out of Intervals";
+	}
+}*/

@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	string firstName, lastName;
+	cin >> firstName >> lastName;
+
+	string firstName2, lastName2;
+	cin >> firstName2 >> lastName2;
+
+	if (lastName == lastName2)
+	{
+		cout << "ARE Brothers";
+	}
+	else
+	{
+	cout << "NOT";
+	}
+}

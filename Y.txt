@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+	long int N1, N2, N3, N4;
+	cin >> N1 >> N2 >> N3 >> N4;
+	int newN1 = N1 % 100;
+	int newN2 = N2 % 100;
+	int newN3 = N3 % 100;
+	int newN4 = N4 % 100;
+	long int res =(newN1 * newN2 * newN3 * newN4)%100;
+	if (res < 10) { cout << 0 << res; }
+	else {cout << res;}
+}

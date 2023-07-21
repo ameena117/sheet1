@@ -1,0 +1,41 @@
+//V
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+	short N1,N2;
+	char op;
+	cin >> N1 >> op >> N2;
+	if (op == '>')
+	{
+		if (N1 > N2) {
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+		}
+	}
+	if (op == '<')
+	{
+		if (N1 < N2) {
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+		}
+	}
+	if (op == '=')
+	{
+		if (N1 == N2) {
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+		}
+	}
+}

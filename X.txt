@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int start1, end1, start2, end2;
+	cin >> start1 >> end1 >> start2 >> end2;
+	if (max(start1, start2) <= min(end1, end2)) 
+		cout << max(start1, start2) << " " << min(end1, end2);
+	else {
+				cout << "-1";
+
+	}
+}

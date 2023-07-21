@@ -1,0 +1,42 @@
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+	short N1, N2,N3;
+	char op;
+	char eq = '=';
+	cin >> N1 >> op >> N2 >> eq >> N3;
+	if (op == '+')
+	{
+		if (N1 + N2 == N3) {
+			cout << "Yes";
+		}
+		else
+		{
+			cout << N1+N2;
+		}
+	}
+	if (op == '-')
+	{
+		if (N1 - N2 == N3) {
+			cout << "Yes";
+		}
+		else
+		{
+			cout << N1-N2;
+		}
+	}
+	if (op == '*')
+	{
+		if (N1 * N2 == N3) {
+			cout << "Yes";
+		}
+		else
+		{
+			cout << N1*N2;
+		}
+	}
+}
